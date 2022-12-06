@@ -19,8 +19,10 @@ This is an example of how to list things you need to use the software and how to
    composer install
    composer dump-autoload
    composer require laravel/passport
-   php artisan migrate
    php artisan passport:install
+   composer require laravel/telescope
+   php artisan telescope:install
+   php artisan migrate
    php artisan key:generate
    php artisan optimize:clear
    php artisan db:seed
