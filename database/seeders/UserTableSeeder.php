@@ -20,7 +20,7 @@ class UserTableSeeder extends Seeder
         DB::table('users')->updateOrInsert([
             'email' => 'admin@brokerage-insurance.com',
         ],[
-            'name' => 'mahmoud',
+            'name' => 'shaher gaber',
             'password' => Hash::make('admin'),
             'type' => 'admin',
         ]);
