@@ -17,10 +17,10 @@ This is an example of how to list things you need to use the software and how to
 * back end server
   ```sh
    composer install
-   composer dump-autoload
    composer require laravel/passport
    php artisan passport:install
    composer require laravel/telescope
+   composer dump-autoload
    php artisan telescope:install
    php artisan migrate
    php artisan key:generate
@@ -30,5 +30,6 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ## Note 
+Login http://127.0.0.1:8000/login with email: ```admin@brokerage-insurance.com``` password: ```admin```
  * ```Laravel Framework 8.83.26 ```
  * ```PHP 8.1.0 ```
